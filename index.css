@@ -1,0 +1,42 @@
+body {
+    background-color: black;
+}
+#img-nav {
+    width: 50px;
+    height: 50px;
+}
+a{
+    cursor: pointer;
+}
+#title-nav {
+    text-decoration: none;
+    color: white;
+    font-size: 2rem;
+    margin-left: 14px;
+}
+#title-nav:hover {
+    color: rgb(238, 238, 238);
+}
+.navbar {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding-inline: 15px;
+}
+#esquerda {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+#links {
+    font-size: 1.5rem;
+}
+#links a{
+    text-decoration: none;
+    margin-inline: 15px;
+    color: white;
+}
+#links a:hover{
+    color: rgb(233, 233, 233);
+}
