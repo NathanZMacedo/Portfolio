@@ -23,6 +23,10 @@ a{
     justify-content: space-between;
     align-items: center;
     padding-inline: 15px;
+    position: fixed;
+    top:0;
+    background-color: black;
+    width: 100%;
 }
 #esquerda {
     display: flex;
@@ -39,4 +43,17 @@ a{
 }
 #links a:hover{
     color: rgb(233, 233, 233);
+}
+.sessao {
+    width: 100%;
+    height: 500px;
+}
+#contato{
+    background-color: aqua;
+}
+#eu {
+    background-color: darkslateblue;
+}
+#projetos{
+    background-color: blue;
 }
